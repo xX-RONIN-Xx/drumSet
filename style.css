@@ -1,0 +1,36 @@
+.keys{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 0 0 5px white;
+}
+kbd{
+    display: block;
+    color:aliceblue;
+    font-size: 40px;
+}
+.sound{
+ color: yellowgreen;
+ font-size: 0.6rem;
+ text-transform:uppercase;
+ letter-spacing: 1px;
+}
+body{
+    background-image: url(./img/drumSet.png);
+}
+div.keys div{
+    border: 2px solid black;
+    width: 50px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    text-shadow: 0 0 5px white;
+    transition: all 0.2s;
+}
+.keys .playing{
+    transform: scale(1.2);
+    border-color: #ffc600;
+    box-shadow: 0 0 10 #ffc600;
+}

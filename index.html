@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum set</title>
+    <script src="drum.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>DRUM SET</h1>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">batery</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">clap</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">drum</span>
+        </div>
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">kick</span>
+        </div>
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">snare</span>
+        </div>
+        <div data-key="192" class="key">
+            <kbd>Ñ</kbd>
+            <span class="sound">cymbal</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="./snd/bateria1.mp3"></audio>
+    <audio data-key="83" src="./snd/clap.wav"></audio>
+    <audio data-key="68" src="./snd/tambor.mp3"></audio>
+    <audio data-key="75" src="./snd/kick.wav"></audio>
+    <audio data-key="76" src="./snd/snare.wav"></audio>
+    <audio data-key="192" src="./snd/platillo.mp3"></audio>
+</body>
+
+</html>
